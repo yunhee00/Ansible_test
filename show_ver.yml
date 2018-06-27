@@ -9,4 +9,4 @@
       commands: show version
      register: ver
    
-   -debug: msg="{{ ver.stdout }}"
+   - debug: msg="{{ ver.stdout }}"
